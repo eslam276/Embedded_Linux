@@ -31,9 +31,9 @@ im1 = pyautogui.screenshot('cppjobs1.png')
 
 pyautogui.moveTo(x=507, y=807)
 
-for i in range(5):
+for i in range(4):
     pyautogui.scroll(-11)
-    im = pyautogui.screenshot(f'cppjobs{i+1}.png')
+    im = pyautogui.screenshot(f'cppjobs{i+2}.png')
     time.sleep(1)
   
 
